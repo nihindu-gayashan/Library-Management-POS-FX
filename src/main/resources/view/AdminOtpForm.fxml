@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="730.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.AdminOtpFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="800.0" layoutX="570.0" stroke="BLACK" strokeType="INSIDE" width="570.0" />
+      <JFXTextField fx:id="txtOtp" layoutX="138.0" layoutY="409.0" prefHeight="52.0" prefWidth="337.0" promptText="O T P" />
+      <JFXButton layoutX="228.0" layoutY="536.0" onAction="#btnVerifyOnAction" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: black;" text="VERIFY" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -2,8 +2,11 @@ package edu.icet.controller;
 
 import javafx.event.ActionEvent;
 
-public class AdminSignInFormController {
+public class AdminSignUpFormController {
+    public void btnSignUpOnAction(ActionEvent actionEvent) {
+    }
+
     public void btnSignInOnAction(ActionEvent actionEvent) {
-        System.out.println("btnSignInOnAction");
+
     }
 }
