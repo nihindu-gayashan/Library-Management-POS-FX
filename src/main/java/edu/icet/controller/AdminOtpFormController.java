@@ -1,9 +1,17 @@
 package edu.icet.controller;
 
+import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 
 public class AdminOtpFormController {
-    public void btnVerifyOnAction(ActionEvent actionEvent) {
+
+    @FXML
+    private JFXTextField txtOtp;
+
+    @FXML
+    void btnVerifyOnAction(ActionEvent event) {
 
     }
+
 }

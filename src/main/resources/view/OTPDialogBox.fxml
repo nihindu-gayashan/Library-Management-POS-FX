@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="otpForm" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="187.0" prefWidth="400.0" style="-fx-border-radius: 100;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.controller.AdminSignUpFormController">
+   <children>
+      <Label layoutX="27.0" layoutY="22.0" prefHeight="34.0" prefWidth="216.0" text="Enter Your OTP :">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtOtp" layoutX="26.0" layoutY="66.0" prefHeight="41.0" prefWidth="349.0" />
+      <JFXButton layoutX="305.0" layoutY="127.0" onAction="#btnOkOnAction" prefHeight="34.0" prefWidth="69.0" style="-fx-background-radius: 7; -fx-background-color: black;" text="Ok" textFill="WHITE" />
+      <JFXButton layoutX="231.0" layoutY="127.0" onAction="#btnCancelOnAction" prefHeight="34.0" prefWidth="69.0" style="-fx-background-radius: 7; -fx-background-color: black;" text="Cancel" textFill="WHITE" />
+   </children>
+</AnchorPane>
